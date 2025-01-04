@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about_container{
+    width: 100%;
+    display: flex;
+    padding-top: 120px;
+}
+.about_container .skills{
+    width: 35%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_container .skills .skill_Title{
+    font-family: "Bebas Neue";
+    height: 112.06px;
+    width: 112.06px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    background-color: #FFFFFF;
+}
+.about_container .skills .skill_Title h6{
+    font-size: 18.68px;
+}
+.about_container .skills .skill_Title h4{
+    font-size: 37.36px;
+}
+.about_container .skills nav{
+    list-style-type: none;
+}
+.about_container .photo{
+    width: 40%; 
+}
+
+.about_container .photo img{
+    height: 365px;
+    width: 305px;
+    border-radius: 45%;
+    filter: blur(3px);
+}
+.about_container .photo img:hover{
+    border-radius: 0;
+    filter: blur(0px);
+    transition-duration: 1s;
+}
+.about_container .qualifications{
+    width: 25%;
+    font-family: "Bebas Neue";
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+.about_container .qualifications h3{
+    font-size: 32px;
+    text-decoration: underline;
+}
+.about_container .qualifications h4{
+    font-size: 20px;
+}
+.about_container .qualifications h6{
+    font-size: 15px;
+}
+.about_container .qualifications h5{
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}

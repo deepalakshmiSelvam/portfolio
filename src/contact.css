@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact_container{
+    width: 100%;
+    padding-top: 135px;
+    padding-bottom: 80px;
+}
+.table_container{
+    color: white;
+    font-family: "Bebas Neue";
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    height: 390px;
+    width: 600px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 15px;   
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.table_container tbody{
+    width: 43vw;
+}
+.table_container input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent; 
+    color: white;
+    font-size: 15px;
+}
+.table_container .name_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    text-align: left;
+}
+.table_container .email_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95%;
+    align-items: center;
+    text-align: left;
+    margin-top: 31px;
+}
+.table_container .email_container textarea{
+    height: 61px;
+    width: 165px;
+    border-top-left-radius: 15px;
+    padding: 20px;
+}
+.table_container .button_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 64%;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 66px;
+    text-align: left;
+
+}
+.button_container .submit_btn{
+    font-family: "Bebas Neue";
+    background-color: transparent; 
+    color: white;
+    width: 81px;
+    height: 21px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.button_container .submit_btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+

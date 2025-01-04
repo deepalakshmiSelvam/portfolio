@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navabar_container{
+    width: 100%;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(179, 54, 255, 0.6);
+    border-bottom: 1px solid rgba(179, 54, 255, 0.5);
+    box-shadow: 5px 5px 10px  rgba(179, 54, 255, 0.3);
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.navabar_container h4{
+    width: 50%;
+    margin-left: 55px;
+    color: #B336FF;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    font-weight: lighter;
+}
+.navabar_container section{
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+}
+.navabar_container section a{
+    text-decoration: none;
+    color: black;
+}
+.navabar_container section :hover{
+    color: #B336FF;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#FFFFFF,#B9B9B9,#858585,#363636);
+    /* background: linear-gradient(#000000,#000000,#000000,#000000, #464646); */
+}

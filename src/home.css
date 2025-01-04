@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.home_Container{
+    width: 100%;
+    display: flex; 
+    padding-top: 83px;
+}
+.home_Container .profile_Photo{
+    width: 20%;
+    position: relative;
+}
+.home_Container .profile_Photo img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 325px;
+    height: 476px;
+    opacity: 0.8;
+}
+
+.home_Container .bulb{
+    width: 20%;
+}
+.home_Container .my_Details{
+    width: 60%;
+    margin-top: 10%;
+    text-align: right;
+}
+.home_Container .my_Details h1{
+    font-family: "Bebas Neue";
+    font-size: 75px;
+    font-weight: lighter;
+}
+.my_Details .name{
+    color: #B336FF;
+}
+.my_Details p{
+    font-family: "Bebas Neue";
+    font-size: 20px;
+}
+.my_Details .resume_btn{
+    cursor: pointer;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(179, 54, 255, 1);
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(179, 54, 255);
+    margin-right: 10px;
+}
+.my_Details .button_icons{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 15px;
+}
+.my_Details .resume_btn:hover{
+    box-shadow: 0px 0px 35px rgba(179, 54, 255, 1);
+}
+
