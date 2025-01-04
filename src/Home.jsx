@@ -1,5 +1,6 @@
-import home_profile1 from "../photos/home_profile1.png";
-import light_bulb from "../photos/light_bulb.svg";
+import home_profile1 from '../public/photos/home_profile1.png'
+import light_bulb from "../public/photos/light_bulb.svg";
+
 import "./home.css";
 import Socialmedia from "./Socialmedia";
 import { IoCloudDownloadOutline } from "react-icons/io5";
