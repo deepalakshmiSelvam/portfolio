@@ -12,12 +12,33 @@
 }
 .about_container .skills{
     width: 35%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
 }
-
-.about_container .skills .skill_Title{
+.about_container .skills .skill_Title h6{
+    display: flex;
+    justify-content: center;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.about_container .skills .skill_list{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    gap: 15px;;
+}
+.about_container .skills .skill_list li:hover{
+    box-shadow: 0px 0px 35px rgba(179, 54, 255, 1);
+}
+.about_container .skills .skill_list li{
+    border: 1px solid rgba(179, 54, 255);
+    box-shadow: 0px 0px 10px rgba(179, 54, 255, 1);
+   padding: 3px;
+   border-radius: 10px;
+   background-color: white;
+}
+/* .about_container .skills .skill_Title{
     font-family: "Bebas Neue";
     height: 112.06px;
     width: 112.06px;
@@ -29,14 +50,14 @@
     justify-content: center;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
     background-color: #FFFFFF;
-}
+} */
 .about_container .skills .skill_Title h6{
     font-size: 18.68px;
 }
 .about_container .skills .skill_Title h4{
     font-size: 37.36px;
 }
-.about_container .skills nav{
+.about_container .skills div{
     list-style-type: none;
 }
 .about_container .photo{
@@ -75,4 +96,10 @@
     font-family: 'Patrick Hand', sans-serif;
     font-size: 20px;
     font-weight: normal;
+}
+.photo h5{
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 25%;
 }

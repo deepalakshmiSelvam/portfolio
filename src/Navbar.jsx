@@ -6,8 +6,8 @@ const Navbar=()=>{
         <section>
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#contact">CONTACT ME</a></li>
+            {/* <li><a href="#">PROJECTS</a></li> */}
+            <li><a href="#contact">GET IN TOUCH</a></li>
         </section>
         </div>
     )
