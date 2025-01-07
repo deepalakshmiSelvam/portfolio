@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Socialmedia from "./Socialmedia";
 import "./contact.css";
-const Contect = () => {
+const Contact = () => {
   //! step:1 Initializing the state
   let [data, setData] = useState({
     firstname: "",
@@ -90,4 +90,4 @@ const Contect = () => {
   );
 };
 
-export default Contect;
+export default Contact;

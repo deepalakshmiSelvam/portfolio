@@ -2,7 +2,7 @@ import About from "./About"
 import Home from "./Home"
 import Navbar from "./Navbar"
 
-import Contect from "./Contect"
+import Contact from "./Contact"
 const App= ()=>{
     return(
         <div>
@@ -10,7 +10,7 @@ const App= ()=>{
         <Navbar/>
         <Home/>
         <About/>
-        <Contect/>
+        <Contact/>
         </div>
     )
 }

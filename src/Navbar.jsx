@@ -4,8 +4,8 @@ const Navbar=()=>{
         <div className="navabar_container">
             <h4>WELCOME!</h4>
         <section>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#home">START HERE</a></li>
+            <li><a href="#about">KNOW ME</a></li>
             {/* <li><a href="#">PROJECTS</a></li> */}
             <li><a href="#contact">GET IN TOUCH</a></li>
         </section>
